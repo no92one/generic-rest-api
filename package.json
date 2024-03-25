@@ -1,0 +1,21 @@
+{
+  "name": "generic-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "create-example-db": "cd create-example-database-cinema && node seeder.js",
+    "backend": "cd backend && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.1.2",
+    "require-from-es": "^1.0.3"
+  }
+}
